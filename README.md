@@ -1,5 +1,3 @@
-# Use SQL to find Carmen Sandiego
-
 ## Introduction
 
 > ***Note:*** _This can be a pair programming activity or done independently._
@@ -100,3 +98,4 @@ Be sure to submit a pull request with your SQL queries and add a comment that in
 ## Licensing
 All content is licensed under a CC­BY­NC­SA 4.0 license.
 All software code is licensed under GNU GPLv3. For commercial use or alternative licensing, please contact legal@ga.co.
+
