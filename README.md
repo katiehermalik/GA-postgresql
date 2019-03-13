@@ -11,11 +11,14 @@ We're going to use what we've learned already about searching with SQL commands,
 #### Requirements
 
 - Fork and clone
+- cd into the folder
 - Use the clues.sql file as your "answer sheet"
-- From the command line, let's create a new database called `carmen` and populate it with the SQL found in `world.sql`
+- From the command line, let's create a new database called `world`.  
+- `ctrl+d` to get out of postgres instance.
+- Populate it with the SQL found in `world.sql` by running-
 
 ```sql
-psql -f starter-code/world.sql
+psql -U username -d world -a -f ./starter-code/world.sql
 ```
 
 Start psql and connect to the new database called world:
