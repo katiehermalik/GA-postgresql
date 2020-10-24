@@ -10,7 +10,10 @@ WHERE population = (SELECT MIN(population) FROM country WHERE region = 'Southern
 -- this country's officially recognized language. Check our databases and find out what language is
 -- spoken in this country, so we can call in a translator to work with you.
 
-
+SELECT language
+FROM countrylanguage
+WHERE countrycode = 'VAT'
+AND isofficial = TRUE;
 
 -- Clue #3: We have new news on the classes Carmen attended – our gumshoes tell us she's moved on
 -- to a different country, a country where people speak only the language she was learning. Find out which
