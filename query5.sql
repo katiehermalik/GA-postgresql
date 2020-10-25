@@ -11,3 +11,5 @@ FROM country
 INNER JOIN city ON city.countrycode = country.code
 WHERE city.countrycode = 'BRA'
 LIMIT 1;
+
+-- Serra, Brazil

@@ -5,3 +5,4 @@ FROM city
 INNER JOIN country ON country.capital = city.id
 WHERE country.name = 'Brazil';
 
+-- Brasilia

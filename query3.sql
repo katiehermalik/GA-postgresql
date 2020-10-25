@@ -7,3 +7,5 @@ FROM countrylanguage
 INNER JOIN country ON countrycode = code
 WHERE language = 'Italian'
 AND percentage = 100;
+
+-- San Marino

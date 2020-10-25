@@ -8,3 +8,5 @@ FROM city
 INNER JOIN countrylanguage ON countrylanguage.countrycode = city.countrycode
 WHERE countrylanguage.countrycode = 'SMR'
 AND name <> 'San Marino'
+
+-- Serravalle
